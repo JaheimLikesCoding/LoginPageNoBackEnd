@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/styles.css') }}">
+</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="login" id="login">
+        <h1>Login</h1>
+        <input placeholder="Enter Username" class="userinput" id="username" type="text">
+        <input placeholder="Enter Password" class="userinput" id="password" type="text">
+        <button>Login</button>
+        <div class="line" id="line"></div>
+        <p>Or Login With</p>
+
+        <div class="icons" id="logos">
+            <img src="static/LoginWite.png" alt="Logos">
+        </div>
+        <footer>
+            <p>New? <a class="link" href="">Register here</a></p>
+        </footer>
+    </div>
+</body>
+</html>
